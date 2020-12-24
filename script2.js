@@ -4,7 +4,7 @@ window.onload = function() {
         src: ['intromusic.mp3']
 
     });
-    sound.loop = true;
+    sound.loop = false;
     sound.play();
 }
 
