@@ -17,6 +17,7 @@ function randomVal() {
         document.getElementById('Num1').innerHTML = random1;
         document.getElementById('Num2').innerHTML = random2;
         var operation1 = Math.floor(Math.random() * operation.length);
+        tiktok();
 
 
         if (operation1 === 0) {
