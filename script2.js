@@ -1,5 +1,5 @@
 window.onload = function() {
-    alert("This website for children");
+    alert("Welcome");
     var sound = new Howl({
         src: ['intromusic.mp3']
 
