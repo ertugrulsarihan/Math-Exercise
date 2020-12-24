@@ -62,8 +62,8 @@ function giveAnswer() {
         correct.innerHTML = "Congratulations!";
         playclap();
 
-    } else if (result === null) {
-        correct.innerHTML = null;
+    } else if (result == "") {
+        correct.innerHTML = "Timeout!!";
     } else {
         playfail();
         correct.innerHTML = "Wrong Answer Try Again!";
