@@ -63,7 +63,7 @@ function giveAnswer() {
         correct.innerHTML = "Congratulations!";
         playclap();
 
-    } else if (num1 == "") {
+    } else if (num1 == " ") {
         correct.innerHTML = "Timeout!!";
     } else {
         playfail();
