@@ -24,3 +24,10 @@ function playfail() {
 
     sound.play();
 }
+
+function tiktok() {
+    var sound = new Howl({
+        src: ["clock.wav"]
+    })
+    sound.play();
+}
