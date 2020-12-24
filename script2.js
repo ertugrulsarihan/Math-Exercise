@@ -12,7 +12,7 @@ function playclap() {
     var sound = new Howl({
         src: ['clap.mp3']
     });
-    sound.loop = true;
+    
     sound.play();
 
 }
