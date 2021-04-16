@@ -1,2 +1,2 @@
 # Math-Exercise
-https://todosmy.netlify.app
+https://ertugrulsarihan.github.io/Math-Exercise/
